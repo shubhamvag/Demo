@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 50px 20px;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .profile-container {
+            margin-top: 50px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 6px solid #000;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
+            text-align: left;
+            padding: 50px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+        h1, h2 {
+            color: #000;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: linear-gradient(135deg, #052633, #414244);
+            color: white;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+            font-size: 1em;
+        }
+        a {
+            color: #106dca;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Portfolio
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="profile-container">
+        <img src="D:\webdevelpoment\WIN_20231114_17_27_43_Pro.jpg" alt="Profile Image" class="profile-img">
+    </div>
+    
+    <div class="content" id="about">
+        <h2>Hi, I am Shubham Vaghasiya</h2>
+        <p>I am passionate about AI and Machine Learning, always exploring new ways to make technology smarter and more efficient. I also enjoy writing about AI advancements, research, and future trends. My goal is to bridge the gap between AI and human understanding through both development and clear, insightful writing.</p>
+    </div>
+    
+    <div class="content" id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>AI Chatbot:</strong> A chatbot using NLP to understand and respond to user queries.</li>
+            <li><strong>Machine Learning Model:</strong> A predictive model trained on large datasets to provide insights.</li>
+            <li><strong>AI & Tech Blog:</strong> Writing about the latest AI developments and their real-world impact.</li>
+        </ul>
+    </div>
+    
+    <div class="content" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto: vaghasiyashubham8888@gmail.com">vaghasiyashubham8888@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">https://www.linkedin.com/feed/</a></p>
+    </div>
+    
+    <footer>
+    </footer>
+</body>
+</html>
